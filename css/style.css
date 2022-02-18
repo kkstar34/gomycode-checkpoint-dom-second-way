@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	background-color: hsl(233, 47%, 7%);
+	width: 100%;
+	margin: 0; 
+}
+
+p, button, input {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1em;
+	padding: 5px 10px;
+	margin: 1px;
+	cursor: pointer;
+}
+.qty-minus{
+	border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+}
+.subtotal{
+	color: #269cd1;
+    font-weight: bold;
+}
+
+.qty{
+	    height: 3rem;
+    width: 6rem;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 1rem;
+    padding: .3rem;
+	
+}
+.qty-plus{
+	border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+}
+
+h2 {
+	text-align: center;
+}
+
+table {
+	width: 100%;
+	text-align: left;
+	background-color: #fff;
+	color: rgba(15, 15, 15, 0.5);
+}
+
+#total_display{
+	color: #269cd1;
+}
+
+.article--name{
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	font-size: 0.75rem;
+}
+
+#add_button{
+
+    background: #269cd1;
+    border: 2px solid #269cd1;
+    margin: 1rem 0rem;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: .8rem;
+    font-weight: bold;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+
+table, th, td {
+color: black;
+	padding: 10px;
+}
+
+table tbody {
+    background-color: #fff;
+	color: rgba(15, 15, 15, 0.5);
+}
+
+tbody button {
+	color: white;
+	background-color: rgba(94, 91, 91, 0.5);
+	border: none;
+	border-radius: 3px;
+	transition: all .3s ease-in-out;
+}
+
+tbody button:hover {
+	background-color: #269cd1;
+	transform:scale(1.1);
+}
+
+input[type="number"] {
+	width: 50px;
+}
+
+#price_product {
+	width: 100px;
+}
+
+.container {
+	width: 90%;
+	margin: auto;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 5em;
+}
+
+.structure {
+	width: 80%;
+	border-radius: 10px;
+	padding: 20px;
+	margin: auto;
+}
+
+
+.remove{
+	color : red;
+	cursor: pointer;
+	
+}
